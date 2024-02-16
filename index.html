@@ -1,119 +1,361 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Durgarao Mutukuri</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="https://kit.fontawesome.com/3ef3559250.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <title>portfolio</title>
+    </head>
 <body>
+    <style>
+        body {
+          /* background-image: url("./bg.jpg");
+          background-size: 100%; */
+          /* background-size:cover; */
+          background-image: linear-gradient(red, yellow, blue);
+        }
+    </style>
+        <nav>
+            <style>
+                .topmenu {
+                    color: lightgray;
+                    margin: 20px;
+                    padding: 10px;
+                    font-size: 20px;
+                    text-decoration:none;
+                  }
+                  .topmenu:hover {
+                    color: white;
+                    font-weight: bolder;
+                    text-decoration: underline;
+                  }
+                  
+                  .topdiv {
+                    float: right;
+                    padding-right: 1cm;
+                  }
+                  
+                  .profile_name {
+                    float: left;
+                    margin-top: 0.5cm;
+                    padding-left: 2cm;
+                    font-size:20px;
+                    color:#f6f6f6;
+                  }
+                  
+                  .profile_name .contact_info {
+                    font-size: 15px;
+                    font-style: italic;
+                    margin-top: 0.5cm;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                  }
+                  
+                  .contact_info img {
+                    width:25px;
+                    margin-right: 10px;
+                    float:left;
+                  }
+                  
+                  h2 {
+                    text-align: justify;
+                    font-size: 50px;
+                    text-align: center;
+                    float: left;
+                    color: #f9f9f9;
+                    margin: 30px;
+                    margin-left: 60px;
+                    margin-top: 40px;
+                    margin-bottom: 0px;
+                  }
+                  
+                  .container {
+                    display: flex;
+                  }
+                  
+                  .about-me {
+                    display: flex;
+                    align-items: center;
+                  }
+                  
+                  #about-me h1 {
+                    font-size: 40px;
+                    margin-top: 50px;
+                    color: #f7f7f7;
+                    margin-left: 5cm;
+                    margin-top: 5cm;
+                  }
+                  
+                  #about-me p {
+                    font-size: 25px;
+                    color: rgb(252, 252, 252);
+                    margin-top: 1cm;
+                    margin-left: 20cm;
+                  }
+                  
+                  .profile_image {
+                    width: 300px;
+                    height: fit-content;
+                    float: left;
+                    vertical-align: middle;
+                    margin-top: 200px;
+                  }
+                  #home{
+                    margin-top: 10px;
+                  }
+            </style>
+            <div id="home">
+              <div class="profile_name">
+                Durga Rao
+                <div class="contact_info">
+                  <img src="https://www.edigitalagency.com.au/wp-content/uploads/Gmail-logo-png-icon.png">
+                  vsai36282@ gmail
+              </div>
+              <div style="clear:both;"></div>
+              
+              </div>
+              
+              <div class="topdiv">
+                <a class="topmenu" href="#about-me">My self</a>
+                <a class="topmenu" href="#skills">Skills</a>
+                <a class="topmenu" href="#projects">Projects</a>
+                <a class="topmenu" href="#Education">Education</a>
+                <a class="topmenu" href="#Network">Network</a>
+              </div>
+            </div>    
+        </nav>
+          <section id="about-me" class="container">
+            <div>
+                <style>
+                    .profile_image{
+                        border-radius: 20%;
+                        border: 1px solid rgb(0, 0, 0);
+                        box-shadow: 0 3px 10px rgb(2, 0, 0);
+                    }
+                    
+                </style>
+              <img src="./dp.jpg" class="profile_image">
+            </div>
+      
+            <div class="profile_name">
+                <h1>
+                    Hey , i am Vijaya Sai Durga Rao
+                </h1>
+                <p>
+                 </p><div>
+                    I am Studying  Computer Science and Engineering at SRM University AP .
+                    </div>
+                <p></p>
+            </div>
+          </section>
+          <section id="skills">
+            <style>
+                .all_skills {
+                    display: flex;
+                    margin-top: 5%;
+                    flex-direction: row;
+                    flex-flow: wrap;
+                  }
+                  
+                  .skill {
+                    border: 1px solid rgb(255, 253, 253);
+                    display: block;
+                    border-radius: 6px;
+                    text-align: center;
+                    margin: 50px;
+                    padding: 10px;
+                    width: 2in;
+                    background-color: #f6f6f6;
+                    font-size: 20px;
+                    box-shadow: 0 3px 10px rgb(1, 0, 0);
+                  }
+                  
+                  .skill img {
+                    height: 60px;
+                    margin-top: 5%;
+                    align-items: center;
+                  }
+                  
+                  .skills h6 {
+                    align-items: center;
+                    font-size: 20px;
+                    margin-block-start: 8px;
+                    margin-block-end: 5px;
+                    font-weight: bold;
+                  } 
+                  
+                  .skills p {
+                    align-items: center;
+                    font-size: 15px;
+                    color: rgb(255, 253, 253);
+                    margin-block-start: 5px;
+                    margin-block-end: 5px;
+                  } 
+                  
+                  .flex_center {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  }
+            </style>
+            <h2 style="margin-top: 12%;">Skills</h2>
+            <div style="clear:both;"></div>
+      
+            <div class="all_skills">
+              <div class="skill">
+                <img src="https://cdn-icons-png.freepik.com/512/919/919827.png">
+                <h6>HTML</h6>
+              </div>  
+      
+              <div class="skill">
+                <img src="https://w7.pngwing.com/pngs/241/797/png-transparent-cascading-style-sheets-css3-javascript-logo-world-wide-web-blue-angle-text-thumbnail.png">
+                <h6>CSS</h6>
+              </div> 
+              <div class="skill">
+                  <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png">
+                  <h6>JavaScript</h6>
+                </div>  
+        
+                <div class="skill">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD///87Ozv4+PgzMzN0dHRXV1chISEXFxf8/PwZGRn19fXx8fGrq6vS0tIoKChHR0fn5+ctLS2xsbHExMSBgYFNTU2Tk5NwcHA+Pj6enp5mZmZ9fX1SUlIKCgq8vLzg4OCKiorZ2dmXl5deXl7Nzc22aD37AAAEY0lEQVR4nO3d6ZqqIAAGYLC01NQWWybbp7n/WzzZLMmiCdiReL73r8rwjaLAoEMopWESjIl7xkES3tIRStOo77q8TJSWCdO+q/FSKSWhu2ewFIUk6bsOL5aQoO8qvFhAXLyLVrmeDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXBN5q+vGL4Jpdui7Kt2bF0k6o38Gp/y8dyhmtj4NqGhy3PRds24UqSTd77lM3v8jG/6sPt9dPuy7ikaK05N8pUXWdzW1RXmLfOW1uuu7ppoK2e1F7ustm2PSOt9N/IbfhPlSCXhzriln5C93H1o18PylP9cP8MShzS2mTcRj+fUtelHPOLw/pML8Rdf/eKIckFJJiiz+3ajaOQh+DwynnSTiPXsISi0ay/GUKjB/3OUmr+gdXnQC0pNQzrqyNVeqwbFy5LabUFULeYJ0Wwyj8WHkXZdH2YMkFH7ZTGNWqQHTSibdJfuxlMXLuYb08Sk01QGfcMTsovI8WTEFmwbiebJ8suZ+5lrrhd9hyJxpX6EOAVPwSD+MlNgI07rb2Y7Zbc1vtjSheI0KNX/IKi1tJmy1M2EUU1Z8bdz/r28Xi48DOxNuuYCzZ0Oj63drzCX7WZnwwJ3CQYuO4Wq93UmHwVYm/ORO4cqkMCsTcg85lVqJbEzIPmkVe1oCGxMeaZdF25iQvc+YdnktTMhepBPTb51amPDMFGz8weG5dsI9U5EOh/ns3IzG4HrkVQVhtbjzsLqN7yBk1Y3DDVORldd0pBJmPKc8LDtsVaYG4uOjl5AtVGZNJvp/SoiYnyOZlGjkKU99FD9HXvm+8NOMepN3hEyZYuqmB+toTF5995iG6gfGmjcftn0rNkOlCeQfp/uROrNCR72EV6YQxYM1qknp/nZgpnNgmxGBRGGQ8EMrYdkSzlpHNo9a6/gGCYuamjQrH7n8cKYdvTGB++fQ/XbI3ksVB79vcS9lrzQXn4dj5/s07vdLCbsyQWMWyvqxxZkp2MXxITvGj01LtnCMz83TmJ5EGxNyfxs1XOxkY0J2hOjifCm/RMFsOZeVCdeUZbTUycqE3L2Ghi3WVl6TxXYv22BnQn60NnnWiS++uyMnSf/AzoRjvo84KBr3fwwpxP3sTMitPih91u88r/RkB8KzxdKERFzWndb1UNlVDcJgxNaEcyFhy/U0wmIMWxNKrlMqromabsUBD9+PtXVNVKt1baFsB+F3beu6NllTbEOsibVrEzXXl0oyWLu+lBx01ghL7kb2rhF2f503UV+rv6wpx9a1+kT1fQtp19t2zr8zc3sqtX3vyWxxWK+ubW44See9qv/K9fcPS03vkMZbN/5HtOvvAd9x73LHl/z8ls+HJ8r38f3dxs338QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIy48Y2AemPyhv/XVklAjD8PbLmEhG/6LZmWopDQtO9KvFRKCaWpu2cxSmmZkIZJ4OIddRwk5ZfF/gG0vzih0wUw6gAAAABJRU5ErkJggg==">
+                  <h6>C++</h6>
+                </div> 
 
-<section class="resume">
-	<div class="resume_left">
-	    <div class="r_profile_pic">
-	      <img src="./dp.jpg" alt="profile_pic">
-	    </div>
-	    <div class="r_left_sub">
-	      <div class="r_aboutme">
-	        <h2>About me</h2>
-	        <p>I am Studying  Computer Science and Engineering at SRM University AP .</p>
-	      </div>
-	      <div class="r_skills">
-	        <h2>Skills</h2>
-	        <ul>
-	          <li>
-	            <p><i class="fa-solid fa-code"></i></p>
-	            <p>Web Development</p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-pen-nib"></i></p>
-	            <p>Web Designing</p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-video"></i></p>
-	            <p>Video Editing</p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-headphones"></i></p>
-	            <p>Sound Mixing</p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-image"></i></p>
-	            <p>Photoshop Editing</p>
-	          </li>
-	        </ul>
-	      </div>
-	      <div class="r_hobbies">
-	        <h2>Hobbies</h2>
-	        <ul>
-	          <li>
-	            <p><i class="fa-solid fa-football"></i></p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-plant-wilt"></i></p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-book"></i></p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-bicycle"></i></p>
-	          </li>
-	          <li>
-	            <p><i class="fa-solid fa-chess"></i></p>
-	          </li>
-	        </ul>
-	      </div>
-	    </div>
-	</div>
-	<div class="resume_right">
-	    <div class="r_namerole">
-	      <p>Mutukuri</p>
-	      <p>Vijaya Sai Durgarao</p>
-	      <p class="role">Web Developer</p>
-	    </div>
-	    <div class="r_info">
-	      <ul>
-	        <li>
-	          <p>Vijaya Sai Durgarao</p>
-	        </li>
-	        <li>
-	          <p>AP22110010747</p>
-	        </li>
-	      </ul>
-	    </div>
-	    <div class="r_right_sub">
-	      <div class="r_education">
-	        <h2>Education</h2>
-	        <ul>
-	          <li>
-	            <div class="r_ed_left">
-	              <p>2008-2012</p>
-	            </div>
-	            <div class="r_ed_right">
-	              <p>Secondary Education</p>
-	              <p>AP SSC</p>
-	            </div>
-	          </li>
-	          <li>
-	            <div class="r_ed_left">
-	              <p>2020-2022</p>
-	            </div>
-	            <div class="r_ed_right">
-	              <p>Higher Secondary Education</p>
-	              <p>Maths Physics Chemistry</p>
-	            </div>
-	          </li>
-	          <li>
-	            <div class="r_ed_left">
-	              <p>2022-2026</p>
-	            </div>
-	            <div class="r_ed_right">
-	              <p>Bachelor Of Technology</p>
-	              <p>CSE</p>
-	            </div>
-	          </li>
-	        </ul>
-	      </div>
-</section>
+                <div class="skill">
+                  <img src="data:image/png;base64,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">
+                  <h6>C</h6>
+                </div>  
+    
+                <div class="skill">
+                  <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png">
+                  <h6>Python</h6>
+                </div>   
+            </div>
+          </section>
+          <section class="projects" id="projects">
+            <style>
+                .projects-container {
+                margin-top: 30px;
+                margin-left: 60px;
+              }
+              
+              .projects-container hr {
+                border: 1px solid rgb(251, 250, 250);
+                width: 75%;
+                margin-left: 5cm;
+              }
+              
+              .project-card {
+                margin: 0 15px 15px 30px;
+                padding-bottom: 5px;
+              }
+              
+              .project-card h3 {
+                color: white;
+                font-size: 25px;
+                margin-left: 30px;
+              }
+              
+              .project-card li {
+                color: white;
+                font-size: 20px;
+                margin-left: 30px;
+              }
+            </style>
+            <h2>
+              Projects
+            </h2>
+            <div style="clear:both;"></div>
+      
+              <div id="projects-container" class="projects-container">
+                <div class="project-card">
+                  <h3>Shopping Cart</h3>
+                  <ul>
+                    <li>A C++ program implementing an online shopping cart, where users can browse products, add them to cart, and incorporating features like user authentication and product management.</li>
+                  </ul>
+                </div>
+                <hr>
+                <div class="project-card">
+                  <!-- <h3>IBM's protfolio</h3>
+                  <ul>
+                    <li>As per IBM's problem statement I designed a portfolio.Implemented a well-organized and visually appealing portfolio structure to effectively showcase my best work and 
+                        make it easily accessible to viewers.</li>
+                  </ul> -->
+                </div>
+          </div>
+          </section>
+          <div style="clear:both;"></div>
+
+          <section class="Education" id="Education">
+            <style>
+                .education-container {
+                    margin-top: 30px;
+                    margin-left: 60px;
+                  }
+                  
+                  .education-container hr {
+                    border: 1px solid rgb(251, 250, 250);
+                    width: 75%;
+                    margin-left: 5cm;
+                  }
+                  
+                  .edu {
+                    margin: 0 15px 15px 30px;
+                    padding-bottom: 5px;
+                  }
+                  
+                  .edu h3 {
+                    color: white;
+                    font-size: 25px;
+                    margin-left: 30px;
+                  }
+                  
+                  .edu li {
+                    color: white;
+                    font-size: 20px;
+                    margin-left: 30px;
+                  }
+
+            </style>
+            <h2>
+                Education
+            </h2>
+            <div style="clear:both;"></div>
+            <div id="education-container" class="education-container"></div>
+                <div class="edu">
+                  <h3>SRM University AP   2022 - 2026</h3>
+                  <ul>
+                    <li>Bachelor of  Technology in Computer Science</li>
+                  </ul>
+                </div>
+          </section>
+          <section class="Network" id="Network">
+            <style>
+                
+                  .net img{
+                    width:25px;
+                    margin-top: -3.5%;
+                    margin-left: 60px;
+                    float:left;
+                  }
+                  .net h3 {
+                    color: white;
+                    font-size: 25px;
+                    margin-left: 100px;
+                  }
+            </style>
+            <h2>
+                Network
+            </h2>
+            <div style="clear:both;"></div>
+                <div class="net">
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/mutukuri-vijaya-sai-durga-rao-651864258" title="Durgarao"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"></a>
+                </div>
+                <div class="net">
+                    <h3>Github</h3>
+                    <a href="https://github.com/vijayasaidurgarao" title="Sathvik Inguva"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"></a>
+                  </div>
+                
+          </section>
+          
 
 </body>
 </html>
